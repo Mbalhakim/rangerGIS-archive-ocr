@@ -1,0 +1,20 @@
+# Data Directory
+
+This folder contains input data for the project.
+
+**Note:** Data files are not committed to git for privacy and size reasons.
+
+## Expected Structure:
+```
+data/
+├── raw/
+│   ├── mix/         # PDF files to process
+│   └── *.pdf        # Individual PDF files
+└── SBB-Objecten-met-plaatscode-2023.xlsx  # Reference spreadsheet
+```
+
+## Setup:
+1. Place your PDF files in `data/raw/mix/`
+2. Ensure you have the Excel reference file if needed
+
+Data files are excluded in `.gitignore`.
