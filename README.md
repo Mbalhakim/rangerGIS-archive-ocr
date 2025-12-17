@@ -47,11 +47,6 @@ RangerGIS-Archive/
 │       ├── test.ipynb
 │       └── OCR_with_Segmentation.ipynb
 │
-├── scripts/                            # Python scripts
-│   ├── main.py                        # PDF text extraction
-│   ├── main2.py                       # Tesseract OCR implementation
-│   ├── main3.py                       # EasyOCR implementation
-│   └── train.py                       # Model training utilities
 │
 ├── dataset/                            # Training and reference data
 │   ├── annotations.csv                # Labeled bounding boxes (28 images)
